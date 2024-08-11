@@ -140,3 +140,91 @@ body {
   height: 4.8rem;
   display: none;
 }
+
+/******************/
+/* LET'S GO SECTION */
+/******************/
+
+.heading {
+  color: #fab005;
+  margin-bottom: 2.8rem;
+}
+
+.resume2 {
+  font-size: 1.8rem;
+  margin-bottom: 6rem;
+}
+
+.center {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.box {
+  text-align: Center;
+}
+
+.section-2 {
+  padding: 9.8rem 0;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.card {
+  background-color: #495057;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.subtitle2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+}
+
+.paragraph {
+  padding: 3rem 2rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-resume {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.btn2 {
+  background-color: #495057;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.7rem 5rem;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.btn2:hover {
+  background-color: #343a40;
+}
