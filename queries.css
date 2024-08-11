@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 47em) {
+@media (max-width: 49em) {
   .title {
     font-size: 4rem;
   }
@@ -37,7 +37,10 @@
   }
 }
 
-@media (max-width: 37em) {
+@media (max-width: 42em) {
+  .section-1 {
+    width: 100%;
+  }
   .title {
     margin-top: 2.5rem;
     font-size: 3.2rem;
@@ -76,5 +79,11 @@
   .btn:link,
   .btn:visited {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 22em) {
+  .title {
+    font-size: 1.8rem;
   }
 }
