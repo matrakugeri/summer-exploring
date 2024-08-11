@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/*******************/
+/* HIKING SECTION */
+/*****************/
+
+.section-1 {
+  position: relative;
+}
+
+.inner-container {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+  padding-left: 7rem;
+}
+
+.title {
+  font-size: 6.8rem;
+  color: #51cf66;
+  font-weight: 600;
+  text-shadow: 1px 2px 2px rgba(55, 206, 118, 0.377);
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.35rem;
+  margin-bottom: 6.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: #087f5b;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  margin-bottom: 2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f1f3f5;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.075);
+}
+
+.resume {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+/*****************/
+/* NAVIGATION  */
+/***************/
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem;
+  position: relative;
+}
+
+.logo {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list:link,
+.nav-list:visited {
+  margin: 1.2rem 3.2rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-list:hover,
+.nav-list:active {
+  color: #cf711f;
+}
+
+.last {
+  margin-right: 0;
+  margin-left: 4rem;
+  background-color: #51cf66;
+  padding: 0.4rem 1.6rem;
+  border-radius: 30px;
+  padding-left: 9rem;
+  transition: all 0.3s;
+}
+
+.last:hover {
+  background-color: #37b24d;
+}
+
+.icon {
+  color: #fff;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/* .shape2 {
+  position: absolute;
+  bottom: -38px;
+  transform: rotate(180deg);
+} */
+
+.nav-menu {
+  width: 4.8rem;
+  height: 4.8rem;
+  display: none;
+}
