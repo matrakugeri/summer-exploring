@@ -1,0 +1,82 @@
+@media (max-width: 74em) {
+  .inner-container {
+  }
+}
+
+@media (max-width: 57em) {
+  .title {
+    font-size: 5rem;
+  }
+  .resume {
+    /* padding-right: 8rem; */
+    font-size: 1.4rem;
+  }
+  .list {
+    display: none;
+  }
+
+  .nav-menu {
+    width: 4.8rem;
+    height: 4.8rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 47em) {
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    margin-bottom: 1rem;
+  }
+  .inner-container {
+    text-align: center;
+    padding-left: 5rem;
+  }
+
+  .resume {
+    text-align: center;
+  }
+}
+
+@media (max-width: 37em) {
+  .title {
+    margin-top: 2.5rem;
+    font-size: 3.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .resume {
+    font-size: 1.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .photo1 {
+    opacity: 70%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 29em) {
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1rem;
+  }
+}
