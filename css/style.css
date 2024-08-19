@@ -398,6 +398,13 @@ body {
   z-index: 99;
   background-color: #fff;
   padding-top: 9.8rem;
+  padding-bottom: 3.8rem;
+}
+.shape3 {
+  position: absolute;
+  bottom: -3rem;
+  max-width: 100%;
+  z-index: -1;
 }
 
 .inner-box {
@@ -428,7 +435,8 @@ body {
 }
 
 .text-box {
-  padding: 20rem 10rem;
+  /* padding: 20rem 10rem; */
+  padding: 20rem 10rem 0 10rem;
   max-width: 120rem;
   margin: 0 auto;
 }
@@ -458,6 +466,13 @@ body {
 .section-7 {
   padding: 7.2rem 0;
   background-color: #deb37e;
+  position: relative;
+}
+
+.shape-section-7 {
+  position: absolute;
+  bottom: -11rem;
+  max-width: 100%;
 }
 
 .box-7 {
@@ -508,4 +523,71 @@ body {
 
 .form input::placeholder {
   color: #aaa;
+}
+
+/* *************************
+/*SECTION-8*/
+/***************************/
+
+.section-last {
+  background-color: #7f7770;
+  padding: 25rem 0 10rem 0;
+}
+
+.last-box {
+  padding: 0 5rem;
+}
+
+.information-box {
+  padding-right: 12rem;
+}
+
+.info-title {
+  color: #fff;
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+}
+
+.info-lorem {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.icons {
+  display: flex;
+  list-style: none;
+  gap: 1.3rem;
+  margin-top: 2rem;
+}
+
+.col {
+  color: #7f7770;
+}
+
+.list-icon {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.last-title {
+  color: #fff;
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.last-list {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 300;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }

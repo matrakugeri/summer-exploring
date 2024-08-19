@@ -322,3 +322,31 @@
     font-size: 5rem;
   }
 }
+
+@media (max-width: 66em) {
+  .shape-section-7 {
+    display: none;
+  }
+}
+
+/***************************/
+/*LAST-SECTION-8*/
+/***************************/
+
+@media (max-width: 47em) {
+  .last-box.grid--4-cols {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5rem;
+  }
+  .information-box {
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .last-box.grid--4-cols {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+}
