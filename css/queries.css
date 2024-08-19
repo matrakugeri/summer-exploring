@@ -1,5 +1,6 @@
-@media (max-width: 74em) {
-}
+/**********************/
+/* NAV AND SECTION-1 */
+/**********************/
 
 @media (max-width: 57em) {
   .title {
@@ -89,7 +90,34 @@
 }
 
 /**************/
-/* SECTION 03 */
+/* SECTION-2 */
+/**************/
+
+@media (max-width: 77em) {
+  .center {
+    padding: 0 6rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .card3 {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 33em) {
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr) !important ;
+  }
+}
+
+/**************/
+/* SECTION-3 */
 /**************/
 
 @media (max-width: 74em) {
@@ -119,29 +147,178 @@
   }
 }
 
-/**************/
-/* SECTION-2 */
-/**************/
+@media (max-width: 25em) {
+  .card-box2 h3 {
+    font-size: 2.7rem;
+  }
+}
+
+/****************/
+/* SECTION-4 */
+/****************/
+
+@media (max-width: 28em) {
+  .hiking-inner h3 {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .hiking-inner p {
+    font-size: 1.3rem;
+  }
+}
+
+/*********************/
+/* SECTION-5 SNOW IMG*/
+/*********************/
+
+@media (max-width: 71em) {
+  .heading-1 {
+    font-size: 5.5rem;
+  }
+
+  .heading-2 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .heading-1 {
+    font-size: 4.5rem;
+    padding-left: 9rem;
+  }
+  .heading-2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .heading-1 {
+    font-size: 3rem;
+    padding-left: 7rem;
+  }
+  .heading-2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 42em) {
+  .snow-boxx {
+    padding-right: 3.2rem;
+  }
+
+  .snow-img {
+    opacity: 75%;
+  }
+}
+
+@media (max-width: 38em) {
+  .heading-1 {
+    font-size: 2rem;
+  }
+  .heading-2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 29em) {
+  .snow-boxx {
+    padding-right: 2rem;
+  }
+
+  .heading-1 {
+    font-size: 1.3rem;
+    padding-left: 5rem;
+  }
+
+  .heading-2 {
+    font-size: 1.7rem;
+  }
+}
+
+/***************/
+/*SECTION-6*/
+/***************/
 
 @media (max-width: 77em) {
-  .center {
-    padding: 0 6rem;
+  .inner-box {
+    padding: 0 5rem;
   }
 }
 
 @media (max-width: 43em) {
-  .grid--3-cols {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-
-  .card3 {
+  .center2 {
     grid-column: 1/-1;
     justify-self: center;
   }
 }
 
-@media (max-width: 33em) {
-  .grid--3-cols {
-    grid-template-columns: repeat(1, 1fr) !important ;
+@media (max-width: 28em) {
+  .ipsum-paragraph {
+    font-size: 1.3rem;
+  }
+}
+
+/***********************/
+/* SECTION-7 */
+/***********************/
+
+@media (max-width: 75em) {
+  .form input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 50em) {
+  .btn-pr {
+    font-size: 1.2rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 44em) {
+  .btn-pr {
+    font-size: 1rem;
+    width: 100px;
+  }
+}
+
+@media (max-width: 31em) {
+  .form input {
+    width: 200px;
+  }
+  .form input::placeholder {
+    font-size: 1.4rem;
+  }
+  .subscribe-box {
+    position: inherit;
+    grid-row: 2/3;
+  }
+
+  .btn-pr {
+    width: 200px;
+  }
+
+  .form input {
+    grid-row: 1/2;
+  }
+
+  .form {
+    display: grid;
+    justify-content: center;
+    align-content: Center;
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .box-7 h2 {
+    font-size: 5rem;
   }
 }
