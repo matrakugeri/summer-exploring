@@ -103,7 +103,6 @@
   .grid--3-cols {
     grid-template-columns: repeat(2, 1fr) !important;
   }
-
   .card3 {
     grid-column: 1/-1;
     justify-self: center;
@@ -333,10 +332,10 @@
 /*LAST-SECTION-8*/
 /***************************/
 
-@media (max-width: 47em) {
+@media (max-width: 56em) {
   .last-box.grid--4-cols {
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
     row-gap: 5rem;
   }
   .information-box {
@@ -344,9 +343,8 @@
   }
 }
 
-@media (max-width: 24em) {
+@media (max-width: 32em) {
   .last-box.grid--4-cols {
-    grid-template-columns: 1fr;
-    row-gap: 3rem;
+    grid-template-columns: auto;
   }
 }
